@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Actividad 4</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body class="m-3">
+	<h1> <strong>ACTIVIDAD - 4</strong></h1>
+	<h1> Si hay datos hay tabla</h1>
+	<h2> Tabla simple</h2>
+	<p> tabla - cuerpo - fila - celda </p>
+
+	<table Class="table table-bordered">
+		<!-- tbody:table body-->
+		<tbody>
+			<!-- tr: table row-->
+			<tr>
+				<!-- td: table data cell-->
+				<td>Hola </td>
+			</tr>
+		</tbody>
+	</table>
+	<h2> Tabla multiples filas y columnas </h2>
+
+	<table class="table table-bordered">
+		<tbody>
+			<tr>
+				<td>x</td>
+				<td>0</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>x</td>
+				<td>0</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>0</td>
+				<td>x</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h2> Tabla con cabecera y cuerpo</h2>
+	<table class="table table-bordered table-striped table-hover table-dark">
+
+		<head>
+			<tr>
+				<!-- th: Table head data-->
+				<th>Clave</th>
+				<th>Valor</th>
+			</tr>
+		</head>
+		<tbody>
+			<tr>
+				<td><strong>Nombre</strong></td>
+				<td>Bob</td>
+			</tr>
+			<tr>
+				<td><strong>Apellido</strong></td>
+				<td>Esponja</td>
+			</tr>
+</body>
+
+<table class="table table-bordered table-striped table-hover table-dark">
+	<h2> Tabla con cabecera, cuerpo, pie de página y caption </h2>
+	<caption> Tabla de prueba
+		<caption />
+
+		<head>
+	<tr>
+		<!-- th: Table head data-->
+		<th>Clave</th>
+		<th>Valor</th>
+	</tr>
+	</head>
+	<tbody>
+		<tr>
+			<td><strong>Nombre</strong></td>
+			<td>Bob</td>
+		</tr>
+		<tr>
+			<td><strong>Apellido</strong></td>
+			<td>Esponja</td>
+		</tr>
+		</body>
+	<tfoot>
+		<tr>
+			<th>Total</th>
+			<th>Bob Esponja</th>
+		</tr>
+	</tfoot>
+</table>
+<h2> Columnas largas </h2>
+<table class="table table-bordered table-striped, table-hover">
+
+	<thead class="table-dark">
+		<tr>
+			<th colspan="2"> Imput </th>
+			<th colspan="2"> Output </th>
+		</tr>
+		<tr>
+			<th>A</th>
+			<th>B</th>
+			<th>And</th>
+			<th>Or</th>
+		</tr>
+	</thead>
+	<tbody>
+	</tbody>
+	<tr>
+		<td>True</td>
+		<td>True</td>
+		<td>True</td>
+		<td>True</td>
+	</tr>
+	<tr>
+		<td>True</td>
+		<td>False</td>
+		<td>False</td>
+		<td>True</td>
+	</tr>
+	<tr>
+		<td>False</td>
+		<td>True</td>
+		<td>False</td>
+		<td>True</td>
+	</tr>
+	<tr>
+		<td>False</td>
+		<td>False</td>
+		<td>False</td>
+		<td>False</td>
+	</tr>
+</table>
+
+</html>
