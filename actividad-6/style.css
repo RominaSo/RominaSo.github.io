@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma&family=Gayathri:wght@700&family=Gruppo&family=Lobster&family=Mukta&family=Shadows+Into+Light&display=swap')
+html,body{height:100%}
+.main-title{
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center; 
+  color:rgba(231, 47, 57, 0.904);
+  text-shadow: 1px 1px rgb(10, 1, 1);
+  transform: rotate(-4deg);}
+.card-title {text-align: center; font-family: 'Lobster', cursive;}
+.card {text-align: right;}
