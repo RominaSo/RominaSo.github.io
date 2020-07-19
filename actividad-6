@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Titulo de Pagina</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+
+<body class="p-3 bg-light">
+	<div class="container bg-light mb-4">
+		<div class="row text-center">
+			<div class="col"><a href="#">Principal</a></div>
+			<div class="col"><a href="#"> Servicios</a></div>
+			<div class="col"><a href="#">Sobre la propuesta</a></div>
+		</div>
+	</div>
+
+	<h1 class="main-title mb-4">Gestoría Profesional</h1>
+
+	<div class="container">
+		<div class="row">
+
+			<div class="col-sm-12 col-md-4">
+				<div class="card w-100 mb-3" style="width: 18rem;">
+					<img src="https://picsum.photos/500" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Trámites puerta a puerta</h5>
+						<p class="card-text text-left">Con la opción "sin moverte de casa o de la oficina", resolvé todo
+							tipo de
+							trámite. Sumá minutos a tu día. </p>
+						<a href="#" class="btn btn-primary">¿Cómo?</a>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-sm-12 col-md-4">
+				<div class="card w-100 mb-3" style="width: 18rem;">
+					<img src="img/rainbow.png" alt="imagen de..." class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Tipos de trámite</h5>
+						<p class="card-text text-left"> Conocé la variedad de trámites que realizamos. Gestiones
+							individuales y
+							trámites colectivos</p>
+						<a href="#" class="btn btn-primary">Conocé más</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-12 col-md-4">
+				<div class="card w-100 mb-3" style="width: 18rem;">
+					<img src="https://picsum.photos/500" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Inversión</h5>
+						<p class="card-text text-left">Precios por trámite. Presupuestos al instante. ¡Consultá por
+							trámites
+							mensuales! </p>
+						<a href="#" class="btn btn-primary">Más información</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="row">
+			<div class="col-sm-12 col-md-4">
+				<div class="card w-100 mb-3" style="width: 18rem;">
+					<img src="https://picsum.photos/500" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Consultas</h5>
+						<p class="card-text text-left"> Dejanos tu consulta completando el formulario. Respondemos
+							dentro de las 3
+							horas. Todos los días de la semana.</p>
+						<a href="#" class="btn btn-primary">Formulario</a>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-sm-12 col-md-4">
+				<div class="card w-100 mb-3" style="width: 18rem;">
+					<img src="https://picsum.photos/500" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Lugares dónde llegamos</h5>
+						<p class="card-text text-left">Some quick example text to build on the card title and make up
+							the bulk of
+							the card's content.</p>
+						<a href="#" class="btn btn-primary">Visitá el mapa</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-12 col-md-4">
+				<div class="card w-100 mb-3" style="width: 18rem;">
+					<img src="https://picsum.photos/500" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Otros Servicios</h5>
+						<p class="card-text text-left"> Apoyo escolar nivel primrio, y secundario. A domicilio o en
+							espacio
+							propio. Consultanos </p>
+						<a href="#" class="btn btn-primary">Conocé más</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="container bg-light mb-4">
+		<div class="row text-center">
+			<div class="col"><a href="#">Contacto</a></div>
+			<div class="col"><a href="#">Dejanos tu experiencia</a></div>
+			<div class="col"><a href="#">Algunos consejos</a></div>
+		</div>
+	</div>
+
+</body>
+
+</html>
